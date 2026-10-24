@@ -1,5 +1,6 @@
 you can make a function by defining its data type and input parameters. 
-e.g {data type} {name of function}({data type of input 1}{name of input 1},repeat for other inputs)
+
+e.g {data type} {name of function}({data type of input 1}{name of input 1}, ...)
 
 then define what the function does and return an output to the console. 
 
