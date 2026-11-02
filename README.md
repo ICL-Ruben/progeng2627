@@ -39,7 +39,7 @@ You can change the return to be a Boolean which allows for conditional statement
 # Vectors
 
 To create a vector you have to first include the 'vector' module in your programme.
-After including it you can create a vector by using 'std::vector<data type> {vector name};'
+After including it you can create a vector by using 'std::vector<int> {vector name};'
 This will initialise a vector with 0 terms.
 
 You can add elements by using '{vector name}.push_back({new element})'
