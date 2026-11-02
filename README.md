@@ -37,3 +37,20 @@ You can use passing by reference to output more than one thing. Instead of using
 You can change the return to be a Boolean which allows for conditional statements to be made about the function. 
 
 # Vectors
+
+To create a vector you have to first include the 'vector' module in your programme.
+After including it you can create a vector by using 'std::vector<data type> {vector name};'
+This will initialise a vector with 0 terms.
+
+You can add elements by using '{vector name}.push_back({new element})'
+The vector now contains this element.
+Each element has an index going from 0-n (where n is the size of the vector)
+
+You can output the size of a vector by using '{vector name}.size()'.
+If you print this it will print the number of elements in the vector.
+
+You cannot print a vector by doing 'std::cout << {vector name}'. But why?
+Because there is no standard way for C++ to print the vector as it could be formatted in many ways.
+C++ leaves it up to the developer to decide how the vector can be printed.
+This means you can implement your own function to print the vector (most likely using for loops)
+
