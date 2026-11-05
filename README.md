@@ -54,3 +54,11 @@ Because there is no standard way for C++ to print the vector as it could be form
 C++ leaves it up to the developer to decide how the vector can be printed.
 This means you can implement your own function to print the vector (most likely using for loops)
 
+## Passing by const reference
+
+Passing by const reference is useful for functions where vectors are used as inputs and outputs. 
+Passing the entire vector by copy can be very computationally heavy and passing by reference may be unsafe for the specific application.
+Passing it by const reference allows the variable to NOT be edited while also not having to copy the vector which would be slow.
+
+It is done the same way as passing by reference except you declare that it is a 'const' vector data type.
+
