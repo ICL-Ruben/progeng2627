@@ -62,3 +62,5 @@ Passing it by const reference allows the variable to NOT be edited while also no
 
 It is done the same way as passing by reference except you declare that it is a 'const' vector data type.
 
+Nowadays, copmilers do the job of not making unnecesary copies so you can pass by copy and allow the compiler to do its magic
+
