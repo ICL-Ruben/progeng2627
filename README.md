@@ -7,9 +7,7 @@ Started notes from 'Week 4 Functions' and onwards
 
 you can make a function by defining its data type and input parameters. 
 
-e.g {data type} {name of function}({data type of input parameter 1}{name of input parameter 1}, ...)
-
-then define what the function does and return an output to the console. 
+e.g {data type} {name of function}({data type of input parameter 1}{name of input parameter 1}, ...) then define what the function does and return an output to the console. The data type can include any pre-established data type 
 
 This new function can now be called later using {name of function}({argument assigned to input parameter 1}, ...)
 
@@ -59,6 +57,8 @@ This means you can implement your own function to print the vector (most likely 
 Passing by const reference is useful for functions where vectors are used as inputs and outputs. 
 Passing the entire vector by copy can be very computationally heavy and passing by reference may be unsafe for the specific application.
 Passing it by const reference allows the variable to NOT be edited while also not having to copy the vector which would be slow.
+
+
 
 It is done the same way as passing by reference except you declare that it is a 'const' vector data type.
 
