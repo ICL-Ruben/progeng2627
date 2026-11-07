@@ -64,3 +64,11 @@ It is done the same way as passing by reference except you declare that it is a 
 
 Nowadays, copmilers do the job of not making unnecesary copies so you can pass by copy and allow the compiler to do its magic
 
+# Text Files
+
+Using the fstream library you can input (text -> programme) and output (programme -> text) with files. If you are opening a file using a user input, you do not need to use quotation marks as the string library will take care of this. 
+
+To use the input stream you define an object that will be used to contain the file. Then you open the file using the .open(Filename) function. Then you can write to a variable, a pointer is used to look at the first thing in the file (you can  also choose to look at a certain part of the file and the pointer will select this point in the file). Then you can print this variable to the terminal.
+
+You can also choose to make a while loop that pushes back a vector while the pointer has something to point to. e.g while(ifstream_object >> tmp). This means do whatever is inside the while loop 'while ifstream_object has something to output to the temporary variable'. Then you can push the tmp value to the vector and print the vector after.
+
