@@ -1,0 +1,6 @@
+the: 5
+I: 4
+in: 2
+a: 3
+hahahaha: 0
+or: 1
